@@ -1,0 +1,26 @@
+Here's a challenge for our next meeting.
+
+A Bayesian spam filter has a surprisingly simple structure. In this challenge,
+you write the Scala code to train a spam filter and run it on some training
+examples.
+
+This exercise is inspired by the free online AI class now being given at
+Stanford University (http://ai-class.com). Enrollment is closed, but you can
+find the class videos related to this challenge starting at:
+
+  https://www.ai-class.com/course/video/quizquestion/90
+
+This challenge has two levels. The harder version (Spam-hard.scala) is a
+skeleton that requires you to finish two things:
+
+1. The code that digests the training examples (to test your knowledge of Scala
+   collections).
+2. The spam classifier itself (to test your knowledge of the material in the AI
+   class videos).
+
+The easier version (Spam-easy.scala) has part 2 already completed, so that you
+need complete only part 1.
+
+Note that the scala.io package is less polished than most of the standard Scala
+libraries. It's sufficient for this exercise, but I think the Scala team would
+like to rewrite it.
