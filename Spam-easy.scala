@@ -87,13 +87,8 @@ object Spam extends App {
       new BufferedSource(new FileInputStream(promptAndRead(prompt + ": ")))
     try
       whatToDo(bs)
-    catch {
-      case rx: RuntimeException =>
-        bs.close
-        throw rx
-      case x =>
-        throw x
-    }
+    finally
+      bs.close
   }
   val filter =
     Filter(
